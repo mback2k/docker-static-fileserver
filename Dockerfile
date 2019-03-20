@@ -1,5 +1,5 @@
-FROM mback2k/simple-cgi-server
+FROM mback2k/simple-file-server
 
-ADD simple-cgi-server.yaml /etc/simple-cgi-server/simple-cgi-server.yaml
+ADD simple-file-server.yaml /etc/simple-file-server/simple-file-server.yaml
 
 WORKDIR /var/www

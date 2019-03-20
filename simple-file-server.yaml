@@ -1,6 +1,5 @@
 Address: ":8080"
 DocumentRoot: /var/www
-InheritEnv:
-  - HTTPS
+DirectoryListing: true
 Logging:
   Level: info
